@@ -84,7 +84,61 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
      <ul>
-       <li>Enter your JavaScript notes here</li>
+       <li>High level dynamic programming language that allows users to interact with websites; effects, interactivity, data communication, etc. JavaScript IS case sensitive</li>
+       <li>Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort</li>
+       <li>These include:</li>
+       <li>Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples</li>
+       <li>Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook</li>
+       <li>Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications</li>
+       <li>Variables are containers that store values in our code. You start by declaring a variable with the let keyword, followed by the name you give to the variable:</li>
+       <li>let myVariable;</li>
+       <li>A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons at the end of each statement</li>
+       <li>String - This is a sequence of text known as a string. To signify that the value is a string, enclose it in single or double quote marks</li>
+       <li>Number - This is a number. Numbers don't have quotes around them</li>
+       <li>Boolean - This is a True/False value. The words true and false are special keywords that don't need quote marks</li>
+       <li>Array - This is a structure that allows you to store multiple values in a single reference</li>
+       <li>Object - This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn</li>
+       <li>The Null type is inhabited by exactly one value: null</li>
+       <li>The Undefined type is inhabited by exactly one value: undefined</li>
+       <li>Undefined indicates the absence of a value, while null indicates the absence of an object</li>
+       <li>EX:</li>
+       <li>A return statement with no value (return;) implicitly returns undefined</li>
+       <li>Accessing a nonexistent object property (obj.iDontExist) returns undefined</li>
+       <li>A variable declaration without initialization (let x;) implicitly initializes the variable to undefined</li>
+       <li>Many methods, such as Array.prototype.find() and Map.prototype.get(), return undefined when no element is found</li>
+       <li>null is a keyword, but undefined is a normal identifier that happens to be a global property</li>
+       <li>The Boolean type represents a logical entity and is inhabited by two values: true and false</li>
+       <li>The Number type is a double-precision 64-bit binary format IEEE 754 value. It is capable of storing positive floating-point numbers</li>
+       <li>NaN ("Not a Number") is a special kind of number value that's typically encountered when the result of an arithmetic operation cannot be expressed as a number</li>
+       <li>The String type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units. Each element in the string occupies a position in the string</li>
+       <li>The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit</li>
+       <li>A Symbol is a unique and immutable primitive value and may be used as the key of an Object property</li>
+       <li>Objects are the only mutable values. Functions are, in fact, also objects with the additional capability of being callable</li>
+       <li>Object Properties are equivalent to key-value pairs. Property keys are either strings or symbols. Property values can be values of any type, including other objects, which enables building complex data structures</li>
+       <li>There are two types of object properties: The data property and the accessor property</li>
+       <li>Data properties associate a key with a value. It can be described by the following attributes: value</li>
+       <li>The value retrieved by a get access of the property. Can be any JavaScript value: writable</li>
+       <li>A boolean value indicating if the property can be changed with an assignment: enumerable</li>
+       <li>A boolean value indicating if the property can be enumerated by a for...in loop: configurable</li>
+       <li>A boolean value indicating if the property can be deleted, can be changed to an accessor property, and can have its attributes changed</li>
+       <li>Accessor property - Associates a key with one of two accessor functions (get and set) to retrieve or store a value</li>
+       <li>NOTE: It's important to recognize it's accessor property — not accessor method. We can give a JavaScript object class-like accessors by using a function as a value — but that doesn't make the object a class</li>
+       <li>The prototype of an object points to another object or to null — it's conceptually a hidden property of the object, commonly represented as [[Prototype]]</li>
+       <li>Arrays are regular objects for which there is a particular relationship between integer-keyed properties and the length property</li>
+       <li>Typed Arrays present an array-like view of an underlying binary data buffer, and offer many methods that have similar semantics to the array counterparts. "Typed array" is an umbrella term for a range of data structures, including Int8Array, Float32Array, etc</li>
+       <li>Keyed collections: Maps, Sets, WeakMaps, WeakSets - These data structures take object references as keys. Set and WeakSet represent a collection of unique values, while Map and WeakMap represent a collection of key-value associations</li>
+       <li>JSON (JavaScript Object Notation) is a lightweight data-interchange format, derived from JavaScript, but used by many programming languages. JSON builds universal data structures that can be transferred between different environments and even across languages</li>
+       <li>JavaScript is a weakly typed language. This means that you can often use a value of one type where another type is expected, and the language will convert it to the right type for you</li>
+       <li>The primitive coercion process is used where a primitive value is expected, but there's no strong preference for what the actual type should be. This is usually when a string, a number, or a BigInt are equally acceptable</li>
+       <li>An if statement is a way of introducing decision-making into our code. When using the if statement, code will only execute if the statement meets a condition, or is true</li>
+       <li>An else if statement - a 2nd condition</li>
+       <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal</li>
+       <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over</li>
+       <li> for loop contains the following three important statements:</li>
+       <li>1. The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0)</li>
+       <li>2. The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array</li>
+       <li>3. he final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1</li>
+       <li>a function is simply a set of instructions that tells the computer how to perform a certain task. A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file is run. Instead, you must call a function by name to execute it</li>
      </ul>
       </section>
     </main>
