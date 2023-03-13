@@ -1,5 +1,8 @@
 # Prework Study Guide Webpage
 
+![image](https://user-images.githubusercontent.com/122329399/224814764-8705afde-dc67-49fe-ab98-7aea5b0f97a1.png)
+
+
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
